@@ -1,6 +1,7 @@
 import React from 'react';
 import { useRouter } from 'next/router';
 import { BiCategory } from 'react-icons/bi';
+
 export default function CategoryRoute() {
   const router = useRouter();
   const { Category } = router.query;

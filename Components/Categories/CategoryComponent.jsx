@@ -3,10 +3,12 @@ import React from 'react';
 const CategoryComponent = () => (
   <div>
     {/* CAtegory Dropdown Start */}
-    <div />
+    <div>aa</div>
     {/* CAtegory Dropdown end */}
     {/* CAtegory  Start */}
-    <div />
+    <div id="MyProducts">
+      <div id="innerMyProducts">hello worlds</div>
+    </div>
     {/* CAtegory  end */}
   </div>
 );
