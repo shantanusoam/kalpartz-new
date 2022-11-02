@@ -1,18 +1,18 @@
 import React, { useEffect, useReducer, useState } from 'react';
 import styled from 'styled-components';
-import { BsPlus } from 'react-icons/bs';
+import { BsPlus, BsFillArrowRightCircleFill } from 'react-icons/bs';
 import { BiMinus } from 'react-icons/bi';
-import { BsFillArrowRightCircleFill } from 'react-icons/bs';
+
 // import { Link } from 'react-scroll';
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
 import { MdKeyboardArrowDown } from 'react-icons/md';
+import { useRouter } from 'next/router';
 import { MapData1, MapData2 } from '../../data/data';
 
 import { useHover } from '../../Hooks/Hover';
 import useMediaQuery from '../../Hooks/CustomMediaQuery';
 import { toTitleCase } from '../../HelpFunctions/toTitlecase';
-import { useRouter } from 'next/router';
 
 // eslint-disable-next-line no-unused-vars
 const SidebarNav = styled.nav`
@@ -446,11 +446,11 @@ export const MapConatiner = () => {
                                                   <span className="text-center pr-2 ">
                                                     {visibilities[index] ? (
                                                       <div className="text-blue-500">
-                                                        <BsFillArrowRightCircleFill></BsFillArrowRightCircleFill>
+                                                        <BsFillArrowRightCircleFill />
                                                       </div>
                                                     ) : (
                                                       <div className="text-blue-500">
-                                                        <BsFillArrowRightCircleFill></BsFillArrowRightCircleFill>
+                                                        <BsFillArrowRightCircleFill />
                                                       </div>
                                                     )}
 
@@ -511,11 +511,11 @@ export const MapConatiner = () => {
                                                   <span className="text-center pr-2">
                                                     {visibilities[index] ? (
                                                       <div className="text-blue-500">
-                                                        <BsFillArrowRightCircleFill></BsFillArrowRightCircleFill>
+                                                        <BsFillArrowRightCircleFill />
                                                       </div>
                                                     ) : (
                                                       <div className="text-blue-500">
-                                                        <BsFillArrowRightCircleFill></BsFillArrowRightCircleFill>
+                                                        <BsFillArrowRightCircleFill />
                                                       </div>
                                                     )}
 
@@ -573,11 +573,11 @@ export const MapConatiner = () => {
                                                     <span className="text-center pr-2">
                                                       {visibilities[index] ? (
                                                         <div className="text-blue-500">
-                                                          <BsFillArrowRightCircleFill></BsFillArrowRightCircleFill>
+                                                          <BsFillArrowRightCircleFill />
                                                         </div>
                                                       ) : (
                                                         <div className="text-blue-500">
-                                                          <BsFillArrowRightCircleFill></BsFillArrowRightCircleFill>
+                                                          <BsFillArrowRightCircleFill />
                                                         </div>
                                                       )}
 
@@ -658,11 +658,11 @@ export const MapConatiner = () => {
                                     <span className="text-center pr-2">
                                       {visibilities[index] ? (
                                         <div className="text-blue-500">
-                                          <BsFillArrowRightCircleFill></BsFillArrowRightCircleFill>
+                                          <BsFillArrowRightCircleFill />
                                         </div>
                                       ) : (
                                         <div className="text-blue-500">
-                                          <BsFillArrowRightCircleFill></BsFillArrowRightCircleFill>
+                                          <BsFillArrowRightCircleFill />
                                         </div>
                                       )}
 
