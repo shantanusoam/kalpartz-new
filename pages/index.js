@@ -37,7 +37,7 @@ const Home = () => (
 
     <AboutUs />
     <WhatMakeUsSpecial />
-    <NewDeerGuard></NewDeerGuard>
+    <NewDeerGuard />
     <BrandsComponent />
     {/* <FeaturedProducts /> */}
     {/* <RoadSideAssistant /> */}
