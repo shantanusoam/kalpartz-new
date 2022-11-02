@@ -117,7 +117,7 @@ import Slidermobilethree from '../Assets/Images/Home/Slidermobilethree.png';
 export const HomeSliderData = [
   {
     id: 1,
-    img: 'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/HomePageSlider-2.png',
+    img: 'https://raw.githubusercontent.com/shantanusoam/kalpartz-new/main/Assets/Images/Home/HomePageSlider-1.png',
     imgMobile:
       'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/SlidermobileTwo.png',
     Heading: 'TRANSFORMING TRUCKING DYNAMICS',
@@ -132,7 +132,7 @@ export const HomeSliderData = [
   },
   {
     id: 2,
-    img: 'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/HomePageSlider-1.png',
+    img: 'https://raw.githubusercontent.com/shantanusoam/kalpartz-new/main/Assets/Images/Home/HomePageSlider-2.png',
     imgMobile:
       'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/Slidermobileone.png',
     Heading: 'Off-The-Road Tires',
@@ -148,7 +148,7 @@ export const HomeSliderData = [
 
   {
     id: 3,
-    img: 'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/HomePageSlider-3.png',
+    img: 'https://raw.githubusercontent.com/shantanusoam/kalpartz-new/main/Assets/Images/Home/HomePageSlider-3.png',
     imgMobile:
       'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/HomePageSlider-3.png',
     Heading: 'Looking for new tires for your fleet?  ',
@@ -163,7 +163,7 @@ export const HomeSliderData = [
   },
   {
     id: 4,
-    img: 'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/HomePageSlider-2.png',
+    img: 'https://raw.githubusercontent.com/shantanusoam/kalpartz-new/main/Assets/Images/Home/HomePageSlider-4.png',
     imgMobile:
       'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/main/Assets/Images/Home/SlidermobileTwo.png',
     Heading: 'TRANSFORMING TRUCKING DYNAMICS',

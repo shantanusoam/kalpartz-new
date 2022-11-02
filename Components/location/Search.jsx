@@ -96,7 +96,7 @@ const Search = (setTypedLocation) => {
             name="search"
             placeholder="Enter your city or ZIP code"
           />
-          <button type="submit" className=" bg-red-600   ">
+          <button type="submit" className=" bg-orange-600   ">
             <div className="text-white px-5">{buttonText}</div>
           </button>
         </div>

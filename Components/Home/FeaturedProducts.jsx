@@ -174,7 +174,7 @@ const FeaturedProducts = () => {
                     <p className=" text-zinc-500 mt-4 ">{data.desc}</p>
                     <button
                       type="button"
-                      className="group  relative  mt-6  bg-red-600  text-center transition-all duration-100 delay-75 cursor-pointer active:bg-red-300 focus:outline-none focus:ring focus:bg-red-900 focus:text-white"
+                      className="group  relative  mt-6  bg-orange-600  text-center transition-all duration-100 delay-75 cursor-pointer active:bg-red-300 focus:outline-none focus:ring focus:bg-red-900 focus:text-white"
                     >
                       <h4 className="px-6 py-2 text-white group-hover:text-white z-10 relative pointer ease-in-out transition-colors">
                         {data.CTA1.heading}
@@ -203,7 +203,7 @@ const FeaturedProducts = () => {
                         <p className=" text-zinc-500 mt-4 ">{data.desc}</p>
                         <button
                           type="button"
-                          className="group  relative  mt-6  bg-red-600  text-center transition-all duration-100 delay-75 cursor-pointer active:bg-red-300 focus:outline-none focus:ring focus:bg-red-900 focus:text-white"
+                          className="group  relative  mt-6  bg-orange-600  text-center transition-all duration-100 delay-75 cursor-pointer active:bg-red-300 focus:outline-none focus:ring focus:bg-red-900 focus:text-white"
                         >
                           <h4 className="px-6 py-2 text-white group-hover:text-white z-10 relative pointer ease-in-out transition-colors">
                             {data.CTA1.heading}

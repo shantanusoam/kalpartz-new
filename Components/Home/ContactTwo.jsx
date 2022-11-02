@@ -112,7 +112,7 @@ const Contactform = () => {
     <div id="maincontactform" className="justify-between lg:flex">
       <div
         id="shadow"
-        className="md:p-0 p-4 bg-red-600 2xl:w-1/2 xl:w-9/12 flex justify-center items-center"
+        className="md:p-0 p-4 bg-orange-600 2xl:w-1/2 xl:w-9/12 flex justify-center items-center"
         style={{
           backgroundImage:
             // eslint-disable-next-line operator-linebreak
@@ -209,7 +209,7 @@ const Contactform = () => {
                 >
                   <input
                     onChange={(e) => setName(e.target.value)}
-                    className="appearance-none font-Helvetica block w-full h-full placeholder-white bg-opacity-30 bg-red-600  text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
+                    className="appearance-none font-Helvetica block w-full h-full placeholder-white bg-opacity-30 bg-orange-600  text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
                     id="grid-first-name"
                     type="text"
                     value={name}
@@ -230,7 +230,7 @@ const Contactform = () => {
                     placeholder="Contact Number"
                     accept="number"
                     value={phone}
-                    className="appearance-none block w-full h-full bg-opacity-30  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
+                    className="appearance-none block w-full h-full bg-opacity-30  bg-orange-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
                     onChange={(e) => setPhone(e.target.value)}
                     // defaultValue="+1"
                   />
@@ -241,7 +241,7 @@ const Contactform = () => {
                 >
                   <input
                     onChange={(e) => setEmail(e.target.value)}
-                    className="appearance-none block font-Helvetica w-full h-full bg-opacity-30  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none "
+                    className="appearance-none block font-Helvetica w-full h-full bg-opacity-30  bg-orange-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none "
                     id="emailValidate"
                     type="email"
                     value={email}
@@ -257,7 +257,7 @@ const Contactform = () => {
                 >
                   <select
                     name="servicetype"
-                    className=" block font-Helvetica w-10/12  h-full bg-opacity-30 focus:bg-red-600  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
+                    className=" block font-Helvetica w-10/12  h-full bg-opacity-30 focus:bg-orange-600  bg-orange-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
                     onChange={(e) => setservice(e.target.value)}
                     type="select"
                     value={service}
@@ -284,7 +284,7 @@ const Contactform = () => {
                   <input
                     onChange={(e) => setZip(e.target.value)}
                     // inputMode="numeric"
-                    className="appearance-none block w-full h-full bg-opacity-30  bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none "
+                    className="appearance-none block w-full h-full bg-opacity-30  bg-orange-600 placeholder-white text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none "
                     id="grid-first-name"
                     type="text"
                     value={zip}
@@ -300,7 +300,7 @@ const Contactform = () => {
                 >
                   <input
                     onChange={(e) => setMessage(e.target.value)}
-                    className="appearance-none outline-none font-Helvetica block w-full h-full bg-opacity-30 bg-red-600 placeholder-white text-white border rounded py-3 px-4 mb-0 leading-tight focus:outline-non"
+                    className="appearance-none outline-none font-Helvetica block w-full h-full bg-opacity-30 bg-orange-600 placeholder-white text-white border rounded py-3 px-4 mb-0 leading-tight focus:outline-non"
                     id="grid-first-name"
                     type="text"
                     value={message}
@@ -331,7 +331,7 @@ const Contactform = () => {
                   </div>
 
                   <div>
-                    <p className="text-white md:ml-16  bg-red-600 text-opacity-80 border-opacity-80 bg-opacity-20 rounded h-12 font-Helvetica  mt-2 flex justify-start items-center">
+                    <p className="text-white md:ml-16  bg-orange-600 text-opacity-80 border-opacity-80 bg-opacity-20 rounded h-12 font-Helvetica  mt-2 flex justify-start items-center">
                       Or call us now at &nbsp;
                       <a
                         href="tel:8008080025"
