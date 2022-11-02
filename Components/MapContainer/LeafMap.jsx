@@ -28,7 +28,7 @@ import { toTitleCase } from '../../HelpFunctions/toTitlecase';
 
 // function style(feature) {
 //   return {
-//     fillColor: '#ED1C24',
+//     fillColor: '#f15a22',
 //     weight: 0.6,
 //     opacity: 1,
 //     color: 'white',
@@ -209,7 +209,7 @@ const LeafMap = ({ Data, Data2, SData, location }) => {
             <Polygon
               key={state.id}
               pathOptions={{
-                fillColor: '#ED1C24',
+                fillColor: '#f15a22',
                 weight: 0.6,
                 opacity: 1,
                 color: 'white',
@@ -221,7 +221,7 @@ const LeafMap = ({ Data, Data2, SData, location }) => {
                 mouseover: (e) => {
                   const layer = e.target;
                   layer.setStyle({
-                    fillColor: '#ED1C24',
+                    fillColor: '#f15a22',
                     weight: 0.6,
                     opacity: 1,
 
@@ -233,7 +233,7 @@ const LeafMap = ({ Data, Data2, SData, location }) => {
                 mouseout: (e) => {
                   const layer = e.target;
                   layer.setStyle({
-                    fillColor: '#ED1C24',
+                    fillColor: '#f15a22',
                     weight: 0.6,
                     opacity: 1,
                     color: 'white',

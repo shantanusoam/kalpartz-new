@@ -192,7 +192,7 @@ export const NavBtn = styled.div`
 
 export const NavBtnLink = styled.a`
   border-radius: 50px;
-  background: #ed1c24;
+  background: #f15a22;
   padding: 10px 22px;
   white-space: nowrap;
   padding: 10px 22px;
