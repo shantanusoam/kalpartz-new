@@ -6,8 +6,10 @@ export default function CategoryRoute() {
   const { Category } = router.query;
 
   return (
-    <h1 className="flex justify-center items-center text-5xl font-bold h-screen">
-      This is my <span className="text-orange-500 px-2">{Category}</span>
-    </h1>
+    <div>
+      <h1 className="flex justify-center items-center text-5xl font-bold h-screen">
+        This is my <span className="text-orange-500 px-2">{Category}</span>
+      </h1>
+    </div>
   );
 }
