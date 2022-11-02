@@ -28,7 +28,7 @@ import { toTitleCase } from '../../HelpFunctions/toTitlecase';
 
 // function style(feature) {
 //   return {
-//     fillColor: '#ED1C24',
+//     fillColor: '#f15a22',
 //     weight: 0.6,
 //     opacity: 1,
 //     color: 'white',
@@ -48,7 +48,7 @@ const MapInside = styled.div`
 const limeOptions = { color: 'lime' };
 const covidIcon = new Icon({
   iconUrl:
-    'https://raw.githubusercontent.com/Kalfreight-In/KalTires_new/4622c2c6940e5fc26a7eb95e48f3c42a7855014e/Assets/Images/iconMapMarker.svg',
+    'https://raw.githubusercontent.com/shantanusoam/kalpartz-new/ba2e3c27f383589073fc265f8851532b3513b61f/Assets/Images/iconMapMarker.svg',
   iconSize: [25, 25],
 });
 const userIcon = new Icon({
@@ -209,7 +209,7 @@ const LeafMap = ({ Data, Data2, SData, location }) => {
             <Polygon
               key={state.id}
               pathOptions={{
-                fillColor: '#ED1C24',
+                fillColor: '#f15a22',
                 weight: 0.6,
                 opacity: 1,
                 color: 'white',
@@ -221,7 +221,7 @@ const LeafMap = ({ Data, Data2, SData, location }) => {
                 mouseover: (e) => {
                   const layer = e.target;
                   layer.setStyle({
-                    fillColor: '#ED1C24',
+                    fillColor: '#f15a22',
                     weight: 0.6,
                     opacity: 1,
 
@@ -233,7 +233,7 @@ const LeafMap = ({ Data, Data2, SData, location }) => {
                 mouseout: (e) => {
                   const layer = e.target;
                   layer.setStyle({
-                    fillColor: '#ED1C24',
+                    fillColor: '#f15a22',
                     weight: 0.6,
                     opacity: 1,
                     color: 'white',
